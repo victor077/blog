@@ -2,7 +2,7 @@ import { InstagramIcon, LinkedinIcon, TwitterIcon } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-slate-200 w-full absolute bottom-0">
+    <footer className="bg-slate-200 w-full">
       <div className="flex flex-col items-center justify-center py-14 gap-2">
         <p>© 2023Victor Angelo. Todos os direitos reservados.</p>
         <ul className="flex gap-4 items-center">

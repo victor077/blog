@@ -1,8 +1,10 @@
-/** @type {import('next').NextConfig} */
+// @ts-check
+
+/**
+ * @type {import('next').NextConfig}
+ **/
 const nextConfig = {
-  publicRuntimeConfig: {
-    favicon: "/favicon.png",
-  },
+  reactStrictMode: true,
 };
 
 module.exports = nextConfig;

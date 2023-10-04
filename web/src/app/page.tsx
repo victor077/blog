@@ -1,15 +1,17 @@
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-import ListCards from "@/components/ListCards";
+import Footer from "@/components/footer";
+import Header from "@/components/header";
+import ListCards from "@/components/list-cards";
 
 export default function Home() {
   return (
-    <div className="h-screen w-full">
+    <>
       <Header />
-      <div className="h-2/3 flex flex-col justify-center items-center">
-        <ListCards />
+      <div className="  flex justify-center items-center h-screen">
+        <div className="flex items-center w-2/3">
+          <ListCards />
+        </div>
       </div>
       <Footer />
-    </div>
+    </>
   );
 }
